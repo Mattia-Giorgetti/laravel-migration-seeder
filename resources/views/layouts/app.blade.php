@@ -21,7 +21,6 @@
         @yield('main_title')
         @yield('page_content')
     </main>
-
 </body>
 
 </html>
