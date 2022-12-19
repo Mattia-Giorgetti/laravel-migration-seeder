@@ -5,7 +5,7 @@ body {
 
 header {
     background-image: url(../img/train.jpg);
-    height: 250px;
+    // height: 250px;
     background-position: center;
 
     .layover {
@@ -13,16 +13,14 @@ header {
         z-index: 300;
         background-color: dodgerblue;
         opacity: 0.6;
-        position: relative;
     }
 
     h1 {
-        position: absolute;
-        bottom: 0rem;
         transform: skewX(8deg);
-        font-size: 8rem;
+        font-size: 6rem;
         color: white;
         font-weight: bold;
+        line-height: 250px;
         span {
             text-transform: uppercase;
             color: orange;
